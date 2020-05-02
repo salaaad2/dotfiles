@@ -1,0 +1,141 @@
+sw_volume: 96
+audio_device_state:1:pulse audio
+state: pause
+current: 126
+time: 59.921000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Drinking_Songs_Matt_Elliot.mp3
+1:I_d Love to Change the World (2004 Remaster).mp3
+2:Молчат Дома - Этажи.mp3
+3:Opeth/1995 - Orchid/01 In Mist She Was Standing.mp3
+4:Opeth/1995 - Orchid/02 Under The Weeping Moon.mp3
+5:Opeth/1995 - Orchid/03 Silhouette.mp3
+6:Opeth/1995 - Orchid/04 Forest Of October.mp3
+7:Opeth/1995 - Orchid/05 The Twilight Is My Robe.mp3
+8:Opeth/1995 - Orchid/06 Requiem.mp3
+9:Opeth/1995 - Orchid/07 The Apostle In Triumph.mp3
+10:Opeth/1996 - Morningrise/01 - Advent.mp3
+11:Opeth/1996 - Morningrise/02 - The Night and the Silent Water.mp3
+12:Opeth/1996 - Morningrise/03 - Nectar.mp3
+13:Opeth/1996 - Morningrise/04 - Black Rose Immortal.mp3
+14:Opeth/1996 - Morningrise/05 - To Bid You Farewell.mp3
+15:Opeth/1996 - Morningrise/06 - Eternal Soul Torture (Bonus Track).mp3
+16:Opeth/1998 - My Arms, Your Hearse/01 - Prologue.mp3
+17:Opeth/1998 - My Arms, Your Hearse/02 - April Ethereal.mp3
+18:Opeth/1998 - My Arms, Your Hearse/03 - When.mp3
+19:Opeth/1998 - My Arms, Your Hearse/04 - Madrigal.mp3
+20:Opeth/1998 - My Arms, Your Hearse/05 - The Amen Corner.mp3
+21:Opeth/1998 - My Arms, Your Hearse/06 - Demon of the Fall.mp3
+22:Opeth/1998 - My Arms, Your Hearse/07 - Credence.mp3
+23:Opeth/1998 - My Arms, Your Hearse/09 - Epilogue.mp3
+24:Opeth/1998 - My Arms, Your Hearse/08 - Karma.mp3
+25:Opeth/1999 - Still Life/The Moor.mp3
+26:Opeth/1999 - Still Life/Godhead's Lament.mp3
+27:Opeth/1999 - Still Life/Benighted.mp3
+28:Opeth/1999 - Still Life/Moonlapse Vertigo.mp3
+29:Opeth/1999 - Still Life/Face of Melinda.mp3
+30:Opeth/1999 - Still Life/Serenity Painted Death.mp3
+31:Opeth/1999 - Still Life/White Cluster.mp3
+32:Opeth/1998 - My Arms, Your Hearse/10 - Circle of the Tyrant (Celtic Frost Cover).mp3
+33:Opeth/2001 - Blackwater Park/The Leper Affinity.mp3
+34:Opeth/2001 - Blackwater Park/Bleak.mp3
+35:Opeth/2001 - Blackwater Park/Harvest.mp3
+36:Opeth/2001 - Blackwater Park/The Drapery Falls.mp3
+37:Opeth/2001 - Blackwater Park/Drige For November.mp3
+38:Opeth/2001 - Blackwater Park/The Funeral Portrait.mp3
+39:Opeth/2001 - Blackwater Park/Patterns In The Ivy.mp3
+40:Opeth/2001 - Blackwater Park/Blackwater Park.mp3
+41:Opeth/2001 - Blackwater Park/Patterns in the Ivy II.mp3
+42:Opeth/2001 - Blackwater Park/Still Day Beneath the Sun.mp3
+43:Opeth/2002 - Deliverance/01 - Wreath.mp3
+44:Opeth/2002 - Deliverance/02 - Deliverance.mp3
+45:Opeth/2002 - Deliverance/03 - A Fair Judgement.mp3
+46:Opeth/2002 - Deliverance/04 - For Absent Friends.mp3
+47:Opeth/2002 - Deliverance/05 - Master's Apprentices.mp3
+48:Opeth/2002 - Deliverance/06 - By The Pain I See In Others.mp3
+49:Opeth/2003 - Damnation/01 Windowpane.mp3
+50:Opeth/2003 - Damnation/02 In My Time Of Need.mp3
+51:Opeth/2003 - Damnation/03 Death Whispered A Lullaby.mp3
+52:Opeth/2003 - Damnation/04 Closure.mp3
+53:Opeth/2003 - Damnation/05 Hope Leaves.mp3
+54:Opeth/2003 - Damnation/06 To Rid The Disease.mp3
+55:Opeth/2003 - Damnation/07 Ending Credits.mp3
+56:Opeth/2003 - Damnation/08 Weakness.mp3
+57:Opeth/2005 - Ghost Reveries/01 - Ghost Of Perdition.mp3
+58:Opeth/2005 - Ghost Reveries/02 - The Baying Of The Hounds.mp3
+59:Opeth/2005 - Ghost Reveries/03 - Beneath The Mire.mp3
+60:Opeth/2005 - Ghost Reveries/04 - Atonement.mp3
+61:Opeth/2005 - Ghost Reveries/05 - Harlequin Forest.mp3
+62:Opeth/2005 - Ghost Reveries/06 - Hours Of Wealth.mp3
+63:Opeth/2005 - Ghost Reveries/07 - The Grand Conjuration.mp3
+64:Opeth/2005 - Ghost Reveries/08 - Isolation Years.mp3
+65:Opeth/2008 - Watershed/01-Coil.mp3
+66:Opeth/2008 - Watershed/02-Heir_Apparent.mp3
+67:Opeth/2008 - Watershed/03-The_Lotus_Eater.mp3
+68:Opeth/2008 - Watershed/04-Burden.mp3
+69:Opeth/2008 - Watershed/05-Porcelain_Heart.mp3
+70:Opeth/2008 - Watershed/06-Hessian_Peel.mp3
+71:Opeth/2008 - Watershed/07-Hex_Omega.mp3
+72:Opeth/2011 - Heritage/01. Heritage.mp3
+73:Opeth/2011 - Heritage/02. The Devil's Orchard.mp3
+74:Opeth/2011 - Heritage/03. I Feel the Dark.mp3
+75:Opeth/2011 - Heritage/04. Slither.mp3
+76:Opeth/2011 - Heritage/05. Nepenthe.mp3
+77:Opeth/2011 - Heritage/06. Haxprocess.mp3
+78:Opeth/2011 - Heritage/07. Famine.mp3
+79:Opeth/2011 - Heritage/08. The Lines in My Hand.mp3
+80:Opeth/2011 - Heritage/09. Folklore.mp3
+81:Opeth/2011 - Heritage/10. Marrow of the Earth.mp3
+82:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 01 - Eternal Rains Will Come.mp3
+83:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 02 - Cusp Of Eternity.mp3
+84:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 03 - Moon Above, Sun Below.mp3
+85:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 04 - Elysian Woes.mp3
+86:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 05 - Goblin.mp3
+87:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 06 - River.mp3
+88:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 07 - Voice Of Treason.mp3
+89:Opeth/2014 - Pale Communion/Opeth - Pale Communion - 08 - Faith In Others.mp3
+90:Opeth/2016 - Sorceress/opeth - sorceress - 01 - persephone.mp3
+91:Opeth/2016 - Sorceress/opeth - sorceress - 02 - sorceress.mp3
+92:Opeth/2016 - Sorceress/opeth - sorceress - 03 - the wilde flowers.mp3
+93:Opeth/2016 - Sorceress/opeth - sorceress - 04 - will o the wisp.mp3
+94:Opeth/2016 - Sorceress/opeth - sorceress - 05 - chrysalis.mp3
+95:Opeth/2016 - Sorceress/opeth - sorceress - 06 - sorceress 2.mp3
+96:Opeth/2016 - Sorceress/opeth - sorceress - 07 - the seventh sojourn.mp3
+97:Opeth/2016 - Sorceress/opeth - sorceress - 08 - strange brew.mp3
+98:Opeth/2016 - Sorceress/opeth - sorceress - 09 - a fleeting glance.mp3
+99:Opeth/2016 - Sorceress/opeth - sorceress - 10 - era.mp3
+100:Opeth/2016 - Sorceress/opeth - sorceress - 11 - persephone (slight return).mp3
+101:Opeth/1999 - Still Life/The Moor.mp3
+102:Opeth/1999 - Still Life/Godhead's Lament.mp3
+103:Opeth/1999 - Still Life/Benighted.mp3
+104:Opeth/1999 - Still Life/Moonlapse Vertigo.mp3
+105:Opeth/1999 - Still Life/Face of Melinda.mp3
+106:Opeth/1999 - Still Life/Serenity Painted Death.mp3
+107:Opeth/1999 - Still Life/White Cluster.mp3
+108:Opeth/1998 - My Arms, Your Hearse/10 - Circle of the Tyrant (Celtic Frost Cover).mp3
+109:Opeth/2001 - Blackwater Park/The Leper Affinity.mp3
+110:Opeth/2001 - Blackwater Park/Bleak.mp3
+111:Opeth/2001 - Blackwater Park/Harvest.mp3
+112:Opeth/2001 - Blackwater Park/The Drapery Falls.mp3
+113:Opeth/2001 - Blackwater Park/Drige For November.mp3
+114:Opeth/2001 - Blackwater Park/The Funeral Portrait.mp3
+115:Opeth/2001 - Blackwater Park/Patterns In The Ivy.mp3
+116:Opeth/2001 - Blackwater Park/Blackwater Park.mp3
+117:Opeth/2001 - Blackwater Park/Patterns in the Ivy II.mp3
+118:Opeth/2001 - Blackwater Park/Still Day Beneath the Sun.mp3
+119:54lu7cC001/BONJOUR C'EST CHOUETTE/Ca tue d'etre en vie/03 les serviettes des chevaliers.mp3
+120:54lu7cC001/BONJOUR C'EST CHOUETTE/Ca tue d'etre en vie/06 trop content.mp3
+121:54lu7cC001/BONJOUR C'EST CHOUETTE/Ca tue d'etre en vie/05 tout le monde est tout le monde.mp3
+122:Run Through The Jungle.mp3
+123:54lu7cC001/BONJOUR C'EST CHOUETTE/Ca tue d'etre en vie/01 le paysagiste gourou.mp3
+124:Kidkanevil - Level UP.wav
+125:CD 1/05. Hypnotize.mp3
+126:Ween/The Mollusk/13 - Ocean Man.mp3
+playlist_end
