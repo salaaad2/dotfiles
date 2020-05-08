@@ -1,5 +1,17 @@
 ;==========================================================
 ;
+; THIS IS AN EXAMPLE CONFIGURATION FILE!
+; IT IS NOT SUPPOSED TO WORK OUT OF THE BOX SINCE IS CONTAINS
+; SETTINGS THAT ARE SPECIFIC TO THE MACHINE WHICH WAS USED
+; TO GENERATE IT.
+; Please refer to the web documentation hosted at:
+; https://github.com/polybar/polybar#configuration
+; and
+; https://github.com/polybar/polybar/wiki/Configuration
+; if you want to automatically generate one for you.
+;
+;==========================================================
+;
 ;
 ;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
 ;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
@@ -28,12 +40,12 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/example]
-;monitor = ${env:MONITOR:HDMI-1}
+monitor = ${env:MONITOR}
 width = 100%
-height = 18
+height = 27
 ;offset-x = 1%
 ;offset-y = 1%
-radius = 0
+radius = 6.0
 fixed-center = false
 
 background = ${colors.background}
@@ -42,7 +54,7 @@ foreground = ${colors.foreground}
 line-size = 3
 line-color = #f00
 
-border-size = 0
+border-size = 4
 border-color = #00000000
 
 padding-left = 0
@@ -51,19 +63,19 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = DejaVuSansMono:pixelsize=10;1
-font-1 = DejaVuSansMono:fontformat=truetype:size=8:antialias=false;0
-font-2 = DejaVuSansMono:pixelsize=10;1
+font-0 = fixed:pixelsize=10;1
+font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
+font-2 = siji:pixelsize=10;1
 
-modules-left = bspwm
-modules-center = mpd
-modules-right = filesystem pulseaudio wlan eth date 
+modules-left = bspwm 
+;modules-center = mpd
+modules-right = filesystem pulseaudio xkeyboard memory cpu temperature date 
 
 tray-position = right
 tray-padding = 2
 ;tray-background = #0063ff
 
-wm-restack = bspwm
+;wm-restack = bspwm
 ;wm-restack = i3
 
 ;override-redirect = true
@@ -77,6 +89,26 @@ wm-restack = bspwm
 cursor-click = pointer
 cursor-scroll = ns-resize
 
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:30:...%
+
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+
+label-layout = %layout%
+label-layout-underline = ${colors.secondary}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.secondary}
+label-indicator-underline = ${colors.secondary}
+
 [module/filesystem]
 type = internal/fs
 interval = 25
@@ -86,6 +118,28 @@ mount-0 = /
 label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
+
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = %index%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+
+label-occupied = %index%
+label-occupied-padding = 2
+
+label-urgent = %index%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
+
+label-empty = %index%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 2
+
+; Separator in between workspaces
+; label-separator = |
 
 [module/i3]
 type = internal/i3
@@ -160,9 +214,25 @@ inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
 
+[module/cpu]
+type = internal/cpu
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #f90000
+label = %percentage:2%%
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-underline = #4bffdc
+label = %percentage_used%%
+
 [module/wlan]
 type = internal/network
-interface = wlan0
+interface = wlp59s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
@@ -184,7 +254,7 @@ ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
 type = internal/network
-interface = enp0s25
+interface = enp0s31f6
 interval = 3.0
 
 format-connected-underline = #55aa55
@@ -241,6 +311,34 @@ bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground = ${colors.foreground-alt}
 
+[module/alsa]
+type = internal/alsa
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = ${root.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
 [module/battery]
 type = internal/battery
 battery = BAT0
@@ -274,6 +372,60 @@ animation-discharging-2 = 
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
 
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+format = <ramp> <label>
+format-underline = #f50a4d
+format-warn = <ramp> <label-warn>
+format-warn-underline = ${self.format-underline}
+
+label = %temperature-c%
+label-warn = %temperature-c%
+label-warn-foreground = ${colors.secondary}
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.foreground-alt}
+
+[module/powermenu]
+type = custom/menu
+
+expand-right = true
+
+format-spacing = 1
+
+label-open = 
+label-open-foreground = ${colors.secondary}
+label-close =  cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = power off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
+
+[settings]
+screenchange-reload = true
+;compositing-background = xor
+;compositing-background = screen
+;compositing-foreground = source
+;compositing-border = over
 ;pseudo-transparency = false
 
 [global/wm]
