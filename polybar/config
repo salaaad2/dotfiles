@@ -68,8 +68,8 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm 
-modules-center = mpd
-modules-right = filesystem eth wlan pulseaudio cpu memory temperature battery date 
+;modules-center = mpd
+modules-right = filesystem eth wlan pulseaudio cpu memory temperature date 
 
 tray-position = right
 tray-padding = 2
@@ -109,7 +109,7 @@ type = internal/bspwm
 
 label-focused = %index%
 label-focused-background = ${colors.background-alt}
-label-focused-underline= #81ae9b
+label-focused-underline= #6600cc
 #${colors.primary}
 label-focused-padding = 2
 
@@ -169,7 +169,7 @@ type = internal/cpu
 interval = 2
 format-prefix = "CPU : "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #81ae9b
+format-underline = #6600cc
 label = %percentage:2%%
 
 [module/memory]
@@ -177,7 +177,7 @@ type = internal/memory
 interval = 2
 format-prefix = "MEM : "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #81ae9b
+format-underline = #6600cc
 label = %percentage_used%%
 
 [module/wlan]
@@ -186,7 +186,7 @@ interface = wlan0
 interval = 30.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #81ae9b
+format-connected-underline = #6600cc
 label-connected = %essid%
 
 ;format-disconnected =
@@ -207,7 +207,7 @@ type = internal/network
 interface = enp0s25
 interval = 30.0
 
-format-connected-underline = #81ae9b
+format-connected-underline = #6600cc
 format-connected-prefix = "ETH : "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
@@ -229,7 +229,7 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #81ae9b
+format-underline = #6600cc
 
 label = %date% %time%
 
@@ -298,18 +298,18 @@ format-charging = <animation-charging> <label-charging>
 format-charging-underline = #ffb52a
 
 format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = #81ae9b
+format-discharging-underline = #6600cc
 #${self.format-charging-underline}
 
 format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = #81ae9b
+format-full-underline = #6600cc
 #${self.format-charging-underline}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
 ramp-capacity-2 = 
-ramp-capacity-foreground = #81ae9b
+ramp-capacity-foreground = #6600cc
 #${colors.foreground-alt}
 
 animation-charging-0 = 
@@ -321,7 +321,7 @@ animation-charging-framerate = 750
 animation-discharging-0 = 
 animation-discharging-1 = 
 animation-discharging-2 = 
-animation-discharging-foreground = #81ae9b
+animation-discharging-foreground = #6600cc
 #${colors.foreground-alt}
 animation-discharging-framerate = 750
 
@@ -331,7 +331,7 @@ thermal-zone = 0
 warn-temperature = 60
 
 format = <ramp> <label>
-format-underline = #81ae9b
+format-underline = #6600cc
 format-warn = <ramp> <label-warn>
 format-warn-underline = ${self.format-underline}
 
