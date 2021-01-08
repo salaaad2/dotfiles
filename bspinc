@@ -1,0 +1,5 @@
+#!/bin/bash
+curr=$(bspc config window_gap)
+
+curr=$((curr+3))
+bspc config window_gap $curr
