@@ -10,6 +10,10 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+autoload -U add-zsh-hook
+on_cd() { exa -l --color=auto; }
+add-zsh-hook chpwd on_cd
+
 alias vim="nvim"
 alias emacs="TERM=xterm-256color emacs -nw"
 alias apti="sudo apt-get install"
