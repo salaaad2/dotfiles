@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: cppheader
+# key: cppheader
+# --
+
+\#include <iostream>
+
+class Name {
+      public :
+        Name();
+        Name(std::string name);
+        Name(Name const & name);
+        ~Name();
+
+        Name & operator=(Name const & rhs);
+};

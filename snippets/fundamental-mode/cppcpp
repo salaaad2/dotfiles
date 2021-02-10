@@ -1,0 +1,28 @@
+# -*- mode: snippet -*-
+# name: cppcpp
+# key: cppcpp
+# --
+
+Name::Name(void) {
+    return ;
+}
+
+Name::Name(std::string name) : _name(value) {
+    std::cout << "Name just appeared" << std::endl;
+    return ;
+}
+
+Name::Name(Name const &src) {
+    *this = src;
+    return ;
+}
+
+Name::~Name(void) {
+    std::cout << "Name was destroyed" << std::endl;
+    return ;
+}
+
+Name & Name::operator=(Name const &rhs) {
+    this->field = rhs.getter();
+    return (*this);
+}
